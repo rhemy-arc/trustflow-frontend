@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node api.js && next dev",
     "predev": "npm run codegen",
-    "build": "npm run codegen && next build",
-    "start": "next start",
+    "build": "node api.js && npm run codegen && next build",
+    "start": "node api.js && next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "setup": "./initialize.sh ${NETWORK:-futurenet} && npm install",

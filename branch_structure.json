@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/type-safe-contract-bindings-codegen",
+    "main",
+    "origin",
+    "rhem-grantfox"
+  ],
+  "parent": {
+    "feat/type-safe-contract-bindings-codegen": "main",
+    "main": null,
+    "origin": "main",
+    "rhem-grantfox": "main"
+  },
+  "order": [
+    "main",
+    "feat/type-safe-contract-bindings-codegen",
+    "origin",
+    "rhem-grantfox"
+  ]
+}
