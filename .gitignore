@@ -50,3 +50,6 @@ yarn-error.log*
 
 # Auto-generated contract bindings (regenerated via npm run codegen)
 /shared/contracts-gen
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
